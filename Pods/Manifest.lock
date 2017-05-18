@@ -1,0 +1,25 @@
+PODS:
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - RAMAnimatedTabBarController (2.0.13)
+  - Realm (2.5.1):
+    - Realm/Headers (= 2.5.1)
+  - Realm/Headers (2.5.1)
+  - RealmSwift (2.5.1):
+    - Realm (= 2.5.1)
+
+DEPENDENCIES:
+  - Charts
+  - RAMAnimatedTabBarController (~> 2.0.13)
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  RAMAnimatedTabBarController: 2510f3b66954c3f77ea1042a35d34df8f5f3b604
+  Realm: 32f86104d37c8521f864d4274050b38ba6190733
+  RealmSwift: f719e7511c902b8908593e8f143f59e47931bdb6
+
+PODFILE CHECKSUM: 4cc74e2eb561c5805c9b8b78fe404d9790269dae
+
+COCOAPODS: 1.2.0

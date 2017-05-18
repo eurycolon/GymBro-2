@@ -7,21 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		088E6A57C679D34A6998F7C7 /* Pods_GymBro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D332EB095F428CD8CB7DABE8 /* Pods_GymBro.framework */; };
+		4D00E1FA1E7B631D00F7BB99 /* AnimationsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00E1F91E7B631D00F7BB99 /* AnimationsData.swift */; };
+		4D034D291EAFBE690056543F /* ExpandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D034D281EAFBE690056543F /* ExpandCell.swift */; };
+		4D0488AF1E9DE01400C359AF /* ExerciseDataCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0488AE1E9DE01400C359AF /* ExerciseDataCell2.swift */; };
+		4D0488B11E9DE08100C359AF /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0488B01E9DE08100C359AF /* ExerciseViewController.swift */; };
+		4D0531B71ECAC17E00F38CAE /* WeightLossCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0531B61ECAC17E00F38CAE /* WeightLossCell.swift */; };
+		4D06A45F1E997B2C00B9A2D5 /* DiaryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06A45E1E997B2C00B9A2D5 /* DiaryData.swift */; };
+		4D06A4611E99BCA800B9A2D5 /* FoodDiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06A4601E99BCA800B9A2D5 /* FoodDiaryCell.swift */; };
+		4D07F9DF1E7A27F800A9CAE2 /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D07F9DE1E7A27F800A9CAE2 /* AnimationVC.swift */; };
 		4D09006F1E6F9B77004A8FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D09006E1E6F9B77004A8FEB /* AppDelegate.swift */; };
-		4D0900711E6F9B77004A8FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0900701E6F9B77004A8FEB /* ViewController.swift */; };
 		4D0900741E6F9B77004A8FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0900721E6F9B77004A8FEB /* Main.storyboard */; };
 		4D0900761E6F9B77004A8FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0900751E6F9B77004A8FEB /* Assets.xcassets */; };
 		4D0900791E6F9B77004A8FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0900771E6F9B77004A8FEB /* LaunchScreen.storyboard */; };
+		4D12772C1E89C2DD0062C6EA /* Transition Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12772B1E89C2DD0062C6EA /* Transition Animations.swift */; };
+		4D1277301E89F2940062C6EA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D12772F1E89F2940062C6EA /* AudioToolbox.framework */; };
+		4D1277311E89FA090062C6EA /* tap-vocal.aif in Resources */ = {isa = PBXBuildFile; fileRef = 4D12772D1E89F16A0062C6EA /* tap-vocal.aif */; };
+		4D1277331E8A0A700062C6EA /* tap-smallest.aif in Resources */ = {isa = PBXBuildFile; fileRef = 4D1277321E8A0A1F0062C6EA /* tap-smallest.aif */; };
+		4D13A57E1E9C72CC00C76B6A /* ProgramsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13A57D1E9C72CC00C76B6A /* ProgramsCollectionViewController.swift */; };
+		4D13A5801E9C730100C76B6A /* ProgramsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13A57F1E9C730100C76B6A /* ProgramsCollectionViewCell.swift */; };
+		4D13E9841E9AD7580091A3F9 /* PopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13E9831E9AD7580091A3F9 /* PopupVC.swift */; };
+		4D17148B1E9859CE0081DC98 /* MainExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17148A1E9859CE0081DC98 /* MainExercises.swift */; };
+		4D17148D1E9895290081DC98 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17148C1E9895290081DC98 /* ExerciseCell.swift */; };
+		4D17148F1E98C9EF0081DC98 /* Food Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17148E1E98C9EF0081DC98 /* Food Diary.swift */; };
+		4D194EFC1EA5641700C14DEF /* caloriesForDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D194EFB1EA5641700C14DEF /* caloriesForDiary.swift */; };
+		4D194F011EA6D73600C14DEF /* RoutineListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D194F001EA6D73600C14DEF /* RoutineListCell.swift */; };
+		4D194F051EA6D74E00C14DEF /* RoutineAnimationsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D194F041EA6D74E00C14DEF /* RoutineAnimationsCollectionViewCell.swift */; };
+		4D22A5681EA3C9D900C277B1 /* Routines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22A5671EA3C9D900C277B1 /* Routines.swift */; };
+		4D2CD65D1E973ADE00030C10 /* buttonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2CD65C1E973ADD00030C10 /* buttonVC.swift */; };
+		4D39EC911E7A1928003B3EBA /* ExerciseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39EC901E7A1928003B3EBA /* ExerciseData.swift */; };
+		4D3DF5821E751E6900C8F4CF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DF5811E751E6900C8F4CF /* CollectionViewCell.swift */; };
+		4DF9C5F81EC4FF9700D79161 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF9C5F71EC4FF9700D79161 /* RealmSwift.framework */; };
+		4DF9C5FA1EC4FFA400D79161 /* RAMAnimatedTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF9C5F91EC4FFA400D79161 /* RAMAnimatedTabBarController.framework */; };
+		4DF9C5FC1EC4FFAD00D79161 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF9C5FB1EC4FFAD00D79161 /* Realm.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		4DF9C5FE1EC52FA300D79161 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF9C5FD1EC52FA300D79161 /* Charts.framework */; };
+		4DF9C6001EC536D300D79161 /* WeightLossPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9C5FF1EC536D300D79161 /* WeightLossPopUp.swift */; };
+		4DF9C6021EC54EA900D79161 /* LineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9C6011EC54EA900D79161 /* LineChartData.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4D884E3B1EA1332C001078AA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4D00E1F91E7B631D00F7BB99 /* AnimationsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationsData.swift; sourceTree = "<group>"; };
+		4D034D281EAFBE690056543F /* ExpandCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandCell.swift; sourceTree = "<group>"; };
+		4D0488AE1E9DE01400C359AF /* ExerciseDataCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDataCell2.swift; sourceTree = "<group>"; };
+		4D0488B01E9DE08100C359AF /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		4D0531B61ECAC17E00F38CAE /* WeightLossCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightLossCell.swift; sourceTree = "<group>"; };
+		4D06A45E1E997B2C00B9A2D5 /* DiaryData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryData.swift; sourceTree = "<group>"; };
+		4D06A4601E99BCA800B9A2D5 /* FoodDiaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDiaryCell.swift; sourceTree = "<group>"; };
+		4D07F9DE1E7A27F800A9CAE2 /* AnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
 		4D09006B1E6F9B77004A8FEB /* GymBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D09006E1E6F9B77004A8FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D0900701E6F9B77004A8FEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D0900731E6F9B77004A8FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D0900751E6F9B77004A8FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D0900781E6F9B77004A8FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D09007A1E6F9B77004A8FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D12772B1E89C2DD0062C6EA /* Transition Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transition Animations.swift"; sourceTree = "<group>"; };
+		4D12772D1E89F16A0062C6EA /* tap-vocal.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap-vocal.aif"; sourceTree = "<group>"; };
+		4D12772F1E89F2940062C6EA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4D1277321E8A0A1F0062C6EA /* tap-smallest.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap-smallest.aif"; sourceTree = "<group>"; };
+		4D13A57D1E9C72CC00C76B6A /* ProgramsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsCollectionViewController.swift; sourceTree = "<group>"; };
+		4D13A57F1E9C730100C76B6A /* ProgramsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D13E9831E9AD7580091A3F9 /* PopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupVC.swift; sourceTree = "<group>"; };
+		4D17148A1E9859CE0081DC98 /* MainExercises.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainExercises.swift; sourceTree = "<group>"; };
+		4D17148C1E9895290081DC98 /* ExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
+		4D17148E1E98C9EF0081DC98 /* Food Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Food Diary.swift"; sourceTree = "<group>"; };
+		4D194EFB1EA5641700C14DEF /* caloriesForDiary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = caloriesForDiary.swift; sourceTree = "<group>"; };
+		4D194F001EA6D73600C14DEF /* RoutineListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutineListCell.swift; sourceTree = "<group>"; };
+		4D194F041EA6D74E00C14DEF /* RoutineAnimationsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutineAnimationsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D22A5671EA3C9D900C277B1 /* Routines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routines.swift; sourceTree = "<group>"; };
+		4D2CD65C1E973ADD00030C10 /* buttonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonVC.swift; sourceTree = "<group>"; };
+		4D39EC901E7A1928003B3EBA /* ExerciseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseData.swift; sourceTree = "<group>"; };
+		4D3DF5811E751E6900C8F4CF /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4DF9C5F71EC4FF9700D79161 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "Pods/../build/Debug-iphoneos/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
+		4DF9C5F91EC4FFA400D79161 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RAMAnimatedTabBarController.framework; path = "../../../Developer/Xcode/DerivedData/GymBro-cppqvrsylhsukkbfoemqqwqydqih/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework"; sourceTree = "<group>"; };
+		4DF9C5FB1EC4FFAD00D79161 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "Pods/../build/Debug-iphoneos/Realm/Realm.framework"; sourceTree = "<group>"; };
+		4DF9C5FD1EC52FA300D79161 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../../Developer/Xcode/DerivedData/GymBro-cppqvrsylhsukkbfoemqqwqydqih/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<group>"; };
+		4DF9C5FF1EC536D300D79161 /* WeightLossPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightLossPopUp.swift; sourceTree = "<group>"; };
+		4DF9C6011EC54EA900D79161 /* LineChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartData.swift; sourceTree = "<group>"; };
+		6BE0E23647AB52E8A6FC795E /* Pods-GymBro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymBro.release.xcconfig"; path = "Pods/Target Support Files/Pods-GymBro/Pods-GymBro.release.xcconfig"; sourceTree = "<group>"; };
+		775E41D77F97EDA30FB78FA8 /* Pods-GymBro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymBro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GymBro/Pods-GymBro.debug.xcconfig"; sourceTree = "<group>"; };
+		D332EB095F428CD8CB7DABE8 /* Pods_GymBro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymBro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +106,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF9C5FE1EC52FA300D79161 /* Charts.framework in Frameworks */,
+				4DF9C5FC1EC4FFAD00D79161 /* Realm.framework in Frameworks */,
+				4DF9C5FA1EC4FFA400D79161 /* RAMAnimatedTabBarController.framework in Frameworks */,
+				4DF9C5F81EC4FF9700D79161 /* RealmSwift.framework in Frameworks */,
+				4D1277301E89F2940062C6EA /* AudioToolbox.framework in Frameworks */,
+				088E6A57C679D34A6998F7C7 /* Pods_GymBro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0891820C0F6671A4C2F5E20E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				775E41D77F97EDA30FB78FA8 /* Pods-GymBro.debug.xcconfig */,
+				6BE0E23647AB52E8A6FC795E /* Pods-GymBro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4D0900621E6F9B77004A8FEB = {
 			isa = PBXGroup;
 			children = (
 				4D09006D1E6F9B77004A8FEB /* GymBro */,
 				4D09006C1E6F9B77004A8FEB /* Products */,
+				4D12772E1E89F2940062C6EA /* Frameworks */,
+				0891820C0F6671A4C2F5E20E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +148,84 @@
 		4D09006D1E6F9B77004A8FEB /* GymBro */ = {
 			isa = PBXGroup;
 			children = (
-				4D09006E1E6F9B77004A8FEB /* AppDelegate.swift */,
-				4D0900701E6F9B77004A8FEB /* ViewController.swift */,
+				4D29EC821E8AEF0B004B6783 /* Sounds */,
+				4D12772A1E899C0F0062C6EA /* Data */,
+				4D3DF5801E751E5700C8F4CF /* Cell */,
+				4D82C4831E7474110051B911 /* Controllers */,
 				4D0900721E6F9B77004A8FEB /* Main.storyboard */,
 				4D0900751E6F9B77004A8FEB /* Assets.xcassets */,
 				4D0900771E6F9B77004A8FEB /* LaunchScreen.storyboard */,
 				4D09007A1E6F9B77004A8FEB /* Info.plist */,
 			);
 			path = GymBro;
+			sourceTree = "<group>";
+		};
+		4D12772A1E899C0F0062C6EA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4D00E1F91E7B631D00F7BB99 /* AnimationsData.swift */,
+				4D39EC901E7A1928003B3EBA /* ExerciseData.swift */,
+				4D12772B1E89C2DD0062C6EA /* Transition Animations.swift */,
+				4D06A45E1E997B2C00B9A2D5 /* DiaryData.swift */,
+				4DF9C6011EC54EA900D79161 /* LineChartData.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		4D12772E1E89F2940062C6EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF9C5FD1EC52FA300D79161 /* Charts.framework */,
+				4DF9C5FB1EC4FFAD00D79161 /* Realm.framework */,
+				4DF9C5F91EC4FFA400D79161 /* RAMAnimatedTabBarController.framework */,
+				4DF9C5F71EC4FF9700D79161 /* RealmSwift.framework */,
+				4D12772F1E89F2940062C6EA /* AudioToolbox.framework */,
+				D332EB095F428CD8CB7DABE8 /* Pods_GymBro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D29EC821E8AEF0B004B6783 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4D12772D1E89F16A0062C6EA /* tap-vocal.aif */,
+				4D1277321E8A0A1F0062C6EA /* tap-smallest.aif */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		4D3DF5801E751E5700C8F4CF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4D13A57F1E9C730100C76B6A /* ProgramsCollectionViewCell.swift */,
+				4D3DF5811E751E6900C8F4CF /* CollectionViewCell.swift */,
+				4D17148C1E9895290081DC98 /* ExerciseCell.swift */,
+				4D06A4601E99BCA800B9A2D5 /* FoodDiaryCell.swift */,
+				4D0488AE1E9DE01400C359AF /* ExerciseDataCell2.swift */,
+				4D194EFB1EA5641700C14DEF /* caloriesForDiary.swift */,
+				4D194F041EA6D74E00C14DEF /* RoutineAnimationsCollectionViewCell.swift */,
+				4D034D281EAFBE690056543F /* ExpandCell.swift */,
+				4D194F001EA6D73600C14DEF /* RoutineListCell.swift */,
+				4D0531B61ECAC17E00F38CAE /* WeightLossCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		4D82C4831E7474110051B911 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D07F9DE1E7A27F800A9CAE2 /* AnimationVC.swift */,
+				4D2CD65C1E973ADD00030C10 /* buttonVC.swift */,
+				4D17148A1E9859CE0081DC98 /* MainExercises.swift */,
+				4D17148E1E98C9EF0081DC98 /* Food Diary.swift */,
+				4D13E9831E9AD7580091A3F9 /* PopupVC.swift */,
+				4D13A57D1E9C72CC00C76B6A /* ProgramsCollectionViewController.swift */,
+				4D0488B01E9DE08100C359AF /* ExerciseViewController.swift */,
+				4D22A5671EA3C9D900C277B1 /* Routines.swift */,
+				4D09006E1E6F9B77004A8FEB /* AppDelegate.swift */,
+				4DF9C5FF1EC536D300D79161 /* WeightLossPopUp.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +235,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D09007D1E6F9B77004A8FEB /* Build configuration list for PBXNativeTarget "GymBro" */;
 			buildPhases = (
+				C321883874E2BD8EDDE6DF5B /* [CP] Check Pods Manifest.lock */,
 				4D0900671E6F9B77004A8FEB /* Sources */,
 				4D0900681E6F9B77004A8FEB /* Frameworks */,
 				4D0900691E6F9B77004A8FEB /* Resources */,
+				4E43D16CFE07467C71787A1F /* [CP] Embed Pods Frameworks */,
+				69BE0CDCE0C09DC81A1D8AEF /* [CP] Copy Pods Resources */,
+				4D884E3B1EA1332C001078AA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,8 +264,8 @@
 				TargetAttributes = {
 					4D09006A1E6F9B77004A8FEB = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = W53PK62Y7C;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 79DE79SSUF;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -124,6 +292,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1277331E8A0A700062C6EA /* tap-smallest.aif in Resources */,
+				4D1277311E89FA090062C6EA /* tap-vocal.aif in Resources */,
 				4D0900791E6F9B77004A8FEB /* LaunchScreen.storyboard in Resources */,
 				4D0900761E6F9B77004A8FEB /* Assets.xcassets in Resources */,
 				4D0900741E6F9B77004A8FEB /* Main.storyboard in Resources */,
@@ -132,12 +302,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E43D16CFE07467C71787A1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GymBro/Pods-GymBro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69BE0CDCE0C09DC81A1D8AEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GymBro/Pods-GymBro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C321883874E2BD8EDDE6DF5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D0900671E6F9B77004A8FEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0900711E6F9B77004A8FEB /* ViewController.swift in Sources */,
+				4D12772C1E89C2DD0062C6EA /* Transition Animations.swift in Sources */,
+				4D0488B11E9DE08100C359AF /* ExerciseViewController.swift in Sources */,
+				4D0531B71ECAC17E00F38CAE /* WeightLossCell.swift in Sources */,
+				4D194F011EA6D73600C14DEF /* RoutineListCell.swift in Sources */,
+				4D06A45F1E997B2C00B9A2D5 /* DiaryData.swift in Sources */,
+				4D17148B1E9859CE0081DC98 /* MainExercises.swift in Sources */,
+				4DF9C6001EC536D300D79161 /* WeightLossPopUp.swift in Sources */,
+				4D17148F1E98C9EF0081DC98 /* Food Diary.swift in Sources */,
+				4D194F051EA6D74E00C14DEF /* RoutineAnimationsCollectionViewCell.swift in Sources */,
+				4D22A5681EA3C9D900C277B1 /* Routines.swift in Sources */,
+				4D13A57E1E9C72CC00C76B6A /* ProgramsCollectionViewController.swift in Sources */,
+				4D0488AF1E9DE01400C359AF /* ExerciseDataCell2.swift in Sources */,
+				4D2CD65D1E973ADE00030C10 /* buttonVC.swift in Sources */,
+				4D3DF5821E751E6900C8F4CF /* CollectionViewCell.swift in Sources */,
+				4D17148D1E9895290081DC98 /* ExerciseCell.swift in Sources */,
+				4D00E1FA1E7B631D00F7BB99 /* AnimationsData.swift in Sources */,
+				4D194EFC1EA5641700C14DEF /* caloriesForDiary.swift in Sources */,
+				4D13A5801E9C730100C76B6A /* ProgramsCollectionViewCell.swift in Sources */,
+				4D39EC911E7A1928003B3EBA /* ExerciseData.swift in Sources */,
+				4D07F9DF1E7A27F800A9CAE2 /* AnimationVC.swift in Sources */,
+				4D06A4611E99BCA800B9A2D5 /* FoodDiaryCell.swift in Sources */,
+				4DF9C6021EC54EA900D79161 /* LineChartData.swift in Sources */,
+				4D034D291EAFBE690056543F /* ExpandCell.swift in Sources */,
+				4D13E9841E9AD7580091A3F9 /* PopupVC.swift in Sources */,
 				4D09006F1E6F9B77004A8FEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,26 +500,44 @@
 		};
 		4D09007E1E6F9B77004A8FEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775E41D77F97EDA30FB78FA8 /* Pods-GymBro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W53PK62Y7C;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 79DE79SSUF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RealmSwift",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Realm",
+				);
 				INFOPLIST_FILE = GymBro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gk.GymBro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eurycolon.gymbro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7af73832-c718-4e9b-9145-e4469375673f";
+				PROVISIONING_PROFILE_SPECIFIER = newkey;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4D09007F1E6F9B77004A8FEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE0E23647AB52E8A6FC795E /* Pods-GymBro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W53PK62Y7C;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 79DE79SSUF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RealmSwift",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Realm",
+				);
 				INFOPLIST_FILE = GymBro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gk.GymBro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eurycolon.gymbro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7af73832-c718-4e9b-9145-e4469375673f";
+				PROVISIONING_PROFILE_SPECIFIER = newkey;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +561,7 @@
 				4D09007F1E6F9B77004A8FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
